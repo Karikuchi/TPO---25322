@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velas mochi</title>
+    <link rel="icon" href="./img/1.ico">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+    <script src="https://kit.fontawesome.com/3d04d0da9c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="./img/1.png" alt="Logo" height="50%" class="logo">
+            <h1 class="titulos">Velas Mochi</h1>
+            <p>El complemento para tu relajacion</p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <a href="inicio.html">Inicio</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="sucursales.html">Sucursales</a>
+    </nav>
+
+    <div class="row">
+        <section class="main">
+            <div class="main-cel">
+                <div class="container">
+                    <input type="radio" name="slider" id="item-1" checked>
+                    <input type="radio" name="slider" id="item-2">
+                    <input type="radio" name="slider" id="item-3">
+
+                    <div class="cards">
+                        <label class="card" for="item-1" id="selector-1">
+                            <img src="./img/24.jpeg" alt="">
+                        </label>
+                        <label class="card" for="item-2" id="selector-2">
+                            <img src="./img/2.jpeg" alt="">
+                        </label>
+                        <label class="card" for="item-3" id="selector-3">
+                            <img src="./img/5.jpeg" alt="">
+                        </label>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="main-desk">
+                <div class="slider">
+                    <span style="--i:1;"><img src="./img/11.jpeg" alt="1"></span>
+                    <span style="--i:2;"><img src="./img/2.jpeg" alt="2"></span>
+                    <span style="--i:3;"><img src="./img/3.jpeg" alt="3"></span>
+                    <span style="--i:4;"><img src="./img/4.jpeg" alt="4"></span>
+                    <span style="--i:5;"><img src="./img/5.jpeg" alt="5"></span>
+                    <span style="--i:6;"><img src="./img/6.jpeg" alt="6"></span>
+                    <span style="--i:7;"><img src="./img/9.jpeg" alt="7"></span>
+                    <span style="--i:8;"><img src="./img/12.jpeg" alt="8"></span>
+                </div>
+            </div>
+        </section>
+        <aside>
+            <div id="clima"></div>
+            <h3 class="titulos">Beneficios de la aromaterapia</h3>
+            <p>La aromaterapia es una práctica que utiliza aceites esenciales naturales para mejorar el bienestar físico
+                y emocional. Sus beneficios incluyen la reducción del estrés, mejora del estado de ánimo, alivio de
+                dolores y molestias, mejora del sueño y un ambiente más agradable en el hogar. Puedes incorporarla
+                fácilmente en tu rutina diaria mediante difusores, masajes o simplemente inhalando los aromas para
+                disfrutar de una vida más equilibrada y relajada. <br> </p>
+        </aside>
+    </div>
+
+    <div id="music">
+        <iframe style="border-radius:12px"
+            src="https://open.spotify.com/embed/playlist/2EcGu6uhB2NT5Jt3wjqOD2?utm_source=generator&theme=0"
+            width="100%" height="152" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+    <footer>
+        <div>
+            Derechos reservados 2023
+        </div>
+        <div class="footer-icons">
+            <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="./js/clima.js"></script>
+
+</body>
+
+</html>
